@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04903ED32438B1A7E2BA9A7B /* Pods_Lec25DatesAndCalendarKitMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C430FBEFB79DC9997676EFC5 /* Pods_Lec25DatesAndCalendarKitMine.framework */; };
 		7913E9DE27625C3D00B5B319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E9DD27625C3D00B5B319 /* AppDelegate.swift */; };
 		7913E9E027625C3D00B5B319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E9DF27625C3D00B5B319 /* SceneDelegate.swift */; };
 		7913E9E227625C3D00B5B319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913E9E127625C3D00B5B319 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45F30A385E2837A74D2DF89F /* Pods-Lec25DatesAndCalendarKitMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lec25DatesAndCalendarKitMine.debug.xcconfig"; path = "Target Support Files/Pods-Lec25DatesAndCalendarKitMine/Pods-Lec25DatesAndCalendarKitMine.debug.xcconfig"; sourceTree = "<group>"; };
+		523530E06B44DB92EA6A2700 /* Pods-Lec25DatesAndCalendarKitMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lec25DatesAndCalendarKitMine.release.xcconfig"; path = "Target Support Files/Pods-Lec25DatesAndCalendarKitMine/Pods-Lec25DatesAndCalendarKitMine.release.xcconfig"; sourceTree = "<group>"; };
 		7913E9DA27625C3D00B5B319 /* Lec25DatesAndCalendarKitMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lec25DatesAndCalendarKitMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7913E9DD27625C3D00B5B319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7913E9DF27625C3D00B5B319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		7913E9E927625C3F00B5B319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7913E9EC27625C3F00B5B319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7913E9EE27625C3F00B5B319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C430FBEFB79DC9997676EFC5 /* Pods_Lec25DatesAndCalendarKitMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lec25DatesAndCalendarKitMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04903ED32438B1A7E2BA9A7B /* Pods_Lec25DatesAndCalendarKitMine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05E5870CDA6C5773DC5EA4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C430FBEFB79DC9997676EFC5 /* Pods_Lec25DatesAndCalendarKitMine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E989512254A3C37A0096BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45F30A385E2837A74D2DF89F /* Pods-Lec25DatesAndCalendarKitMine.debug.xcconfig */,
+				523530E06B44DB92EA6A2700 /* Pods-Lec25DatesAndCalendarKitMine.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7913E9D127625C3D00B5B319 = {
 			isa = PBXGroup;
 			children = (
 				7913E9DC27625C3D00B5B319 /* Lec25DatesAndCalendarKitMine */,
 				7913E9DB27625C3D00B5B319 /* Products */,
+				55E989512254A3C37A0096BA /* Pods */,
+				05E5870CDA6C5773DC5EA4FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7913E9F127625C3F00B5B319 /* Build configuration list for PBXNativeTarget "Lec25DatesAndCalendarKitMine" */;
 			buildPhases = (
+				D3E95655FE88E1B0C07F273A /* [CP] Check Pods Manifest.lock */,
 				7913E9D627625C3D00B5B319 /* Sources */,
 				7913E9D727625C3D00B5B319 /* Frameworks */,
 				7913E9D827625C3D00B5B319 /* Resources */,
+				E28F6AF04CD7ECC7878FEFDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3E95655FE88E1B0C07F273A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lec25DatesAndCalendarKitMine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28F6AF04CD7ECC7878FEFDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lec25DatesAndCalendarKitMine/Pods-Lec25DatesAndCalendarKitMine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lec25DatesAndCalendarKitMine/Pods-Lec25DatesAndCalendarKitMine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lec25DatesAndCalendarKitMine/Pods-Lec25DatesAndCalendarKitMine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7913E9D627625C3D00B5B319 /* Sources */ = {
@@ -288,6 +357,7 @@
 		};
 		7913E9F227625C3F00B5B319 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F30A385E2837A74D2DF89F /* Pods-Lec25DatesAndCalendarKitMine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +385,7 @@
 		};
 		7913E9F327625C3F00B5B319 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523530E06B44DB92EA6A2700 /* Pods-Lec25DatesAndCalendarKitMine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
